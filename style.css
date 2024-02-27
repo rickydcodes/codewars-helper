@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+  }
+  
+  label {
+    font-family: sans-serif;
+  }
+  
+  button,
+  input {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #arrayView {
+    display: none;
+  }
+  
+  #dictionaryView {
+    display: inline-block;
+  }
+  
+  #modeDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    display: inline-block;
+    padding-top: 20px;
+    width: 400px;
+  }
+  
+  #typeDiv {
+    margin-top: 10px;
+  }
+  
+  #clearButton,
+  #addButton {
+    width: 75px;
+  }
+  

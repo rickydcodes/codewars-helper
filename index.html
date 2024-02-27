@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" type="text/javascript" defer></script>
+    <title>Dictionary Helper</title>
+  </head>
+  <body>
+    <div id="dictionaryView">
+      <input id="keyInput" type="text" placeholder="Key" />
+      <input id="valueInput" type="text" placeholder="Value" />
+    </div>
+    <div id="arrayView">
+      <input id="memberInput" type="text" placeholder="Member" />
+    </div>
+    <button id="addButton">Add</button>
+    <button id="clearButton">Clear</button>
+
+    <div id="typeDiv">
+      <input type="radio" name="type" value="string" checked />
+      <label>String</label>
+      <input type="radio" name="type" value="other" />
+      <label>Other</label>
+    </div>
+
+    <div id="modeDiv">
+      <input id="dictMode" type="radio" name="mode" checked />
+      <label for="dictMode">Dictionary Mode</label>
+      <input id="arrayMode" type="radio" name="mode" />
+      <label for="arrayMode">Array Mode</label>
+    </div>
+
+    <p id="outputParagraph"></p>
+  </body>
+</html>
